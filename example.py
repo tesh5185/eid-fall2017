@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 """example.py: This is an example of documenting a Python module.
-
 This part is called a docstring.  It can be multiple lines, or
 a single line ended with the triple quote.  Generally there should be
 docstrings for all public modules, functions, classes, and methods.
@@ -19,8 +18,8 @@ import sys
 import os
 import datetime
 
-__author__ = "Bruce Montgomery and Bhallaji Venkatesankulathusundaram"
-__copyright__ = "Copyright (C) 2017 by Bruce Montgomery and Bhallaji Venkatesankulathusundaram"
+__author__ = "Tejas Shanbhag"
+__copyright__ = "Copyright (C) 2017 by Tejas Shanbhag"
 #
 # Redistribution, modification or use of this software in source or binary
 # forms is permitted as long as the files maintain this copyright. Users are
@@ -36,7 +35,7 @@ class Dog(object):
     def __init__(self, name):
         """Returns a Dog object with a name and an empty list of tricks"""
         self.name = name
-        self.tricks = []    # creates a new empty list for each dog
+        self.tricks = []    # creates a new empty list for each diog
 
     def add_trick(self, trick):
         """Adds a new trick to a Dog's list of tricks"""
@@ -45,7 +44,7 @@ class Dog(object):
 def walker(name):
     """walker: an example of a python function"""
     dog1 = Dog(name)
-    dog1.add_trick("Roll Over")
+    dog1.add_trick("Fetch ball")
     print("Walking a new dog:")
     print("  The kind of this thing is ",dog1.kind)
     print("  This dog is ",dog1.name)
